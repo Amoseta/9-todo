@@ -50,6 +50,7 @@ class Todo {
             text: text,
             completed: false
         });
+    }
 
     edit(index, newText) {
         this.list[index].text = newText;
@@ -61,7 +62,7 @@ class Todo {
             console.error('ERROR');
             return;    
         }
-    }
+    
         const filtered = [];
 
         for (let i = 0; i < this.list.length; i++) {
