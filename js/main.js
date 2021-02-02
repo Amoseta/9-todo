@@ -60,3 +60,31 @@ blynai.summary();
 blynai.print();
 blynai.printCompletedOnly();
 blynai.printUnCompletedOnly();
+
+/*
+import { Car } from './components/Todo.js';
+
+const carDrive = new Car('Masina vaziuoja');
+
+carDrive.add('Uzmaisyti tesla');
+carDrive.add('Ijungti kaitlente');
+carDrive.add('Istraukti keptuve');
+carDrive.add('Ipilti tesla i keptuve');
+carDrive.add('Apversti blynus');
+carDrive.add('Isimti blynus');
+carDrive.add('Isjungti keptuve');
+
+carDrive.edit(0, 'Isplauti dubeni ir uzmaisyti tesla');
+
+carDrive.remove(4);
+carDrive.taskCompleted (0);
+carDrive.taskCompleted (2);
+carDrive.taskCompleted (5);
+
+carDrive.summary();
+
+carDrive.print();
+carDrive.printCompletedOnly();
+carDrive.printUnCompletedOnly();
+
+*/

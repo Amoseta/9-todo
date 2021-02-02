@@ -211,3 +211,81 @@ car.turnOff()
 
 */
  
+/* class Car {
+    constructor(variklis) {
+        this.engine = variklis;
+        this.liters = [5];
+        this.consumption = [2.5];
+        this.driven = s();
+    }
+
+    turnOn() {
+        const turnOn = 
+        const text = `${this.name} sarase yra ${this.list.length} uzduotys.`; 
+        console.log(text);
+    }
+
+    add(text) {
+        this.list.push({
+            text: text,
+            completed: false
+        });
+    }
+
+    edit(index, newText) {
+        this.list[index].text = newText;
+    }
+
+    remove(index) {
+        if (index < 0 ||
+            index >= this.list.length) {
+            console.error('ERROR');
+            return;    
+        }
+    
+        const filtered = [];
+
+        for (let i = 0; i < this.list.length; i++) {
+            if (i !== index) {
+                filtered.push(this.list[i]);
+            }
+        }
+        this.list = filtered;
+    }
+
+    print(list = this.list) {
+         console.table(list);
+    }
+
+    taskCompleted(index) {
+        this.list[index].completed = true;
+    }
+
+    printCompletedOnly() {
+        const completed = [];
+
+        for (const task of this.list) {
+            if (task.completed) {
+                completed.push(task);
+            }
+        }
+        this.print(completed);
+    }
+
+    printUnCompletedOnly() {
+        const uncompleted = [];
+
+        for (const task of this.list) {
+            if (!task.completed) {
+                uncompleted.push(task);
+            }
+        }
+        this.print(uncompleted);
+    }
+}
+
+export { Car }
+
+*/
+
+
